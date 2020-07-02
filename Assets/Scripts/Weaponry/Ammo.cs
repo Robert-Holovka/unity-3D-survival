@@ -11,14 +11,14 @@ namespace Survival.Weaponry
 
     internal class Ammo : MonoBehaviour
     {
-        [SerializeField] TextMeshProUGUI ammoAmountTMP;
-        [SerializeField] AmmoSlot[] ammoSlots;
+        [SerializeField] TextMeshProUGUI ammoAmountTMP = default;
+        [SerializeField] AmmoSlot[] ammoSlots = default;
 
         [System.Serializable]
         private class AmmoSlot
         {
-            public AmmoType ammoType;
-            public int ammoAmount;
+            public AmmoType ammoType = default;
+            public int ammoAmount = default;
         }
 
         private AmmoType currentAmmoType = default;

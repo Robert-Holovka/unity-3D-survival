@@ -7,19 +7,19 @@ namespace Survival.Weaponry
     internal class Weapon : MonoBehaviour
     {
         [Header("Weapon Configs")]
-        [SerializeField] AmmoType ammunitionType;
+        [SerializeField] AmmoType ammunitionType = default;
         internal AmmoType AmmunitionType
         {
             get => ammunitionType;
         }
         [SerializeField] int range = 100;
         [SerializeField] int damage = 50;
-        [SerializeField] float timeBetweenShots;
+        [SerializeField] float timeBetweenShots = 0.1f;
 
         [Header("VFX")]
-        [SerializeField] GameObject crossHair;
-        [SerializeField] ParticleSystem muzzleFlash;
-        [SerializeField] GameObject hitEffect;
+        [SerializeField] GameObject crossHair = default;
+        [SerializeField] ParticleSystem muzzleFlash = default;
+        [SerializeField] GameObject hitEffect = default;
 
         private bool canShoot;
         private Ammo ammo;
