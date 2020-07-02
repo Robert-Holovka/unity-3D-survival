@@ -1370,32 +1370,61 @@ PrefabInstance:
     - target: {fileID: 7709899006563188585, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 161
       objectReference: {fileID: 0}
     - target: {fileID: 7709899006563188585, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 0
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 7709899006563188585, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 7709899006563188585, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 0
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7709899006563188585, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7709899006563188585, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
       propertyPath: m_textInfo.materialCount
-      value: 1
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7709899006563188585, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: m_text
+      value: 'weapon selection: 1, 2, 3 or scroll wheel
+
+        Movement: W, A,
+        S, D or Arrow Keys
+
+        look Rotation: Mouse
+
+        shooting: left
+        click
+
+        jumping: space
+
+        running: shift
+
+        Pause: escape'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7709899006563188585, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278247421
+      objectReference: {fileID: 0}
+    - target: {fileID: 7709899006563188585, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 153
       objectReference: {fileID: 0}
     - target: {fileID: 7831427090697445402, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
