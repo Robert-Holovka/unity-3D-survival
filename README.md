@@ -1,4 +1,4 @@
-# unity-3D-rocket-adventure
+# unity-3D-survival
 
 # Goal
 ### Collect resources and kill all skeletons to complete the game
