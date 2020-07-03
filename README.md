@@ -2,9 +2,10 @@
 
 # Goal
 ### Collect resources and kill all skeletons to complete the game
-### 3 different weapons (various range and damage)
+### 3 different weapons (various range, fire rate & damage)
 
-![Gameplay](Readme%20Resources/gameplay.gif)
+![Gameplay](Readme%20Resources/gameplay1.gif)
+![Gameplay](Readme%20Resources/gameplay2.gif)
 
 # Controls
 |           Input          |      Action      |
